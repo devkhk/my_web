@@ -92,22 +92,22 @@ include '../cookie/visitor.php';
                 Java
               </span>
             </li>
-            <li class="chart__bar" style="width: 40%;">
+            <li class="chart__bar" style="width: 45%;">
               <span class="chart__label">
                 PHP
               </span>
             </li>
-            <li class="chart__bar" style="width: 40%;">
+            <li class="chart__bar" style="width: 35%;">
               <span class="chart__label">
                 Python
               </span>
             </li>
-            <li class="chart__bar" style="width: 70%;">
+            <li class="chart__bar" style="width: 65%;">
               <span class="chart__label">
                 HTML5
               </span>
             </li>
-            <li class="chart__bar" style="width: 40%;">
+            <li class="chart__bar" style="width: 50%;">
               <span class="chart__label">
                 CSS3
               </span>
@@ -117,7 +117,7 @@ include '../cookie/visitor.php';
                 JavaScript
               </span>
             </li>
-            <li class="chart__bar" style="width: 35%;">
+            <li class="chart__bar" style="width: 30%;">
               <span class="chart__label">
                 jQuery
               </span>
@@ -128,12 +128,12 @@ include '../cookie/visitor.php';
         <div class="chart chart--prod">
           <span class="chart__title">Platform</span>
           <ul class="chart--horiz">
-          <li class="chart__bar" style="width: 30%;">
+          <li class="chart__bar" style="width: 50%;">
             <span class="chart__label">
               Android
             </span>
           </li>
-          <li class="chart__bar" style="width: 45%;">
+          <li class="chart__bar" style="width: 50%;">
             <span class="chart__label">
               Linux
             </span>
@@ -144,12 +144,12 @@ include '../cookie/visitor.php';
         <div class="chart chart--design">
           <span class="chart__title">Sever&Database</span>
           <ul class="chart--horiz">
-          <li class="chart__bar" style="width: 40%;">
+          <li class="chart__bar" style="width: 45%;">
             <span class="chart__label">
               Mysql8
             </span>
           </li>
-          <li class="chart__bar" style="width: 40%;">
+          <li class="chart__bar" style="width: 45%;">
             <span class="chart__label">
               Apache
             </span>
