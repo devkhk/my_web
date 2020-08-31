@@ -1,0 +1,24 @@
+.timeline-nav{
+  /* border: 2px solid blue; */
+  position:fixed;
+  left: 5%;
+  font-size: 2vh;
+  color: #616161;
+  z-index: 3;
+}
+
+.timeline-nav .nav-years{
+  line-height: 3vh;
+  cursor:default;
+}
+
+.timeline-nav .nav-sub{
+  font-size: 1.7vh;
+  padding-left: 1vh;
+}
+
+.timeline-nav a.selected {
+  pointer-events: none;
+  cursor: not-allowed;
+  color: rgba(136, 224, 24, 0.84);
+}

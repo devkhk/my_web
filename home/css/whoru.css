@@ -1,0 +1,120 @@
+body{
+  margin: 0;
+  font-family: 'Dosis', sans-serif;
+}
+.background {
+  background: url("https://images.unsplash.com/photo-1583456622626-57d6f70fe703?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1491&q=80");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  min-height: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+.blur {
+  font-family: 'Dosis', sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  position: relative;
+  display: -webkit-box;
+  display: block;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+          justify-content: center;
+  text-shadow: 1px 1px 0px rgba(255,255,255,0.5);
+  color: #333;
+  font-size: 40px;
+  z-index: 1;
+  width: 50vw;
+  height: 50vh;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: inset 0 0 2px #fff, 0 10px 30px rgba(0,0,0,0.4);
+  text-align: center;
+  cursor:inherit;
+  animation: fadein 1.5s;
+  -webkit-animation: fadein 1.5s;
+}
+
+.blur::after,
+.blur::before {
+  content: '';
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+}
+.blur::after {
+  background-color: #fff;
+  opacity: 0.25;
+}
+.blur::before {
+  -webkit-filter: blur(5px);
+          filter: blur(5px);
+  -webkit-transition: -webkit-filter 0.5s ease;
+  transition: -webkit-filter 0.5s ease;
+  transition: filter 0.5s ease;
+  transition: filter 0.5s ease, -webkit-filter 0.5s ease;
+  background-size: cover;
+  background-position: -25vw -25vh;
+  background-image: url("https://images.unsplash.com/photo-1583456622626-57d6f70fe703?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1491&q=80");
+}
+.blur:hover::before {
+  -webkit-filter: blur(0);
+          filter: blur(0);
+}
+
+.blur h2{
+  font-weight: 400;
+}
+
+.who{
+  position: relative;
+  margin: 0 auto;
+  width: 40vh;
+
+}
+
+.who input{
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.25);
+  border: 1.5px solid black;
+  border-radius: 15px;
+  margin : 2vh 2vh;
+  width: 15vh;
+  height: 50px;
+  outline:none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.who input.mouseEnter{
+  border-color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  color:white;
+  font-weight: bold;
+}
+
+@@keyframes fadein {
+  from{
+    opacity: 0;
+  }to{
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein{
+  from{
+    opacity: 0;
+  }to{
+    opacity: 1;
+  }
+}

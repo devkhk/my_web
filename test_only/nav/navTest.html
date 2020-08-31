@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="utf-8">
+
+<head>
+  <meta charset="utf-8">
+  <title>navTest</title>
+  <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+  <link rel="stylesheet" href="navTest.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css">
+</head>
+
+<body>
+  <nav>
+    <span class="brand">
+      <a href="#home">B</a>
+    </span>
+    <div class="menu">
+      <a href="#home" class="active scroll-page"><i class="material-icons">home</i></a><br>
+      <a href="#about" class="scroll-page"><i class="material-icons">account_circle</i></a><br>
+      <a href="#skills" class="scroll-page"><i class="material-icons">settings</i></a><br>
+      <a href="#works" class="scroll-page"><i class="material-icons">work</i></a><br>
+      <a href="#contact" class="scroll-page"><i class="material-icons">mail</i></a><br>
+    </div>
+    <div class="social">
+      <a href="https://github.com/RidhoBeteer" target="_blank"><i class="devicon-github-plain"></i></a><br>
+      <a href="http://beteer.wpdevcloud.com" target="_blank"><i class="devicon-wordpress-plain"></i></a><br>
+      <a href="https://twitter.com/ridhobeteer" target="_blank"><i class="devicon-twitter-plain"></i></a><br>
+      <a href="https://www.facebook.com/ridho.beteer" target="_blank"><i class="devicon-facebook-plain"></i></a><br>
+    </div>
+  </nav>
+  <section id="home">
+    <div class="container">
+      <h1 class="welcome">Hello!<br>I'm Ridho.<br> I <span class="pink">design</span> &amp; <span class="blue">build</span> <br>web application</h1>
+      <a href="#contact"><button class="scroll-page">Contact Me</button></a>
+    </div>
+  </section>
+  <section id="about">
+    <div class="container">
+      <div class="text-container">
+        <h2 class="blue">Little About Me</h2>
+        <p>I'm Ridho Ahmad Batubara. An Informatics/Computer Science student at Institut Teknologi Sumatera. I created my first program when i was in junior high school, a cheat injector for a game i'm playing on that time.<br><br> I like to play
+          games on my free time and learn something new.</p>
+      </div>
+    </div>
+  </section>
+  <section id="skills">
+    <div class="container">
+      <div class="text-container">
+        <h2 class="pink">Skill</h2>
+        <p>Main area of my expertise is front end development and everything related with this side of web. HTML, CSS, JS. Now, I am currently learning one of the front-end frameworks, Vue.js .</p><br>
+      </div>
+    </div>
+  </section>
+  <section id="works">
+    <div class="container">
+      <h2 class="blue">Portfolio</h2>
+      <div class="image-container">
+        <div class="img-display">
+          <img src="https://raw.githubusercontent.com/RidhoBeteer/SIA-Design/master/screenshot/1.JPG" alt="Sistem Informasi Alumni" class="img-thumbnail">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="contact">
+    <div class="container">
+      <div class="form-container">
+        <h2 class="pink">Get In Touch</h2>
+        <form>
+          <input type="text" placeholder="Name"><br>
+          <input type="email" placeholder="Email"><br>
+          <input type="text" placeholder="Subject"><br>
+          <textarea placeholder="Message"></textarea><br>
+          <button>Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  <script src="navTest.js"></script>
+</body>
+
+</html>

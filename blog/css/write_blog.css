@@ -1,0 +1,37 @@
+.page-title{
+  margin-top: 5%;
+  margin-bottom: 8%;
+}
+
+.post-title{
+  width: 860px;
+  margin: 18px 18px 17px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(22, 13, 13, 0.22);
+}
+.post-title .textarea_title{
+  display: block;
+  width: 100%;
+  height: 56px;
+  border: none;
+  font-size: 30px;
+  color: #202020;
+  resize: none;
+  outline: 0 none;
+  line-height: 40px;
+  overflow: hidden;
+  letter-spacing: -.4px;
+}
+.post-main{
+  margin: 18px 18px 100px 18px;
+}
+.btn-submit{
+  background: rgba(0, 0, 0, 0.52);
+  color: white;
+  margin-bottom: 50px;
+  margin-left: 18px;
+  width: 100px;
+  height: 50px;
+  border: 1px solid rgba(95, 109, 240, 0.63);
+  border-radius: 35%;
+}

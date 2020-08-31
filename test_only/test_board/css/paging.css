@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+/* 게시판 페이징 */
+#page_num {
+  font-size: 1rem;
+  margin-left: 15%;
+  margin-top: 5%;
+}
+#page_num ul li{
+  float: left;
+  margin-left: 10px;
+  text-align: center;
+}
+.font_red{
+  font-weight: bold;
+  color: red;
+}

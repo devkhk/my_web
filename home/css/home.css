@@ -1,0 +1,67 @@
+@import url(
+  https://fonts.googleapis.com/css?family=Work+Sans:400,
+  300,
+  700|Open+Sans:400italic,
+  300italic
+);
+body {
+  background-color: #fff;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* position: absolute; */
+  background-image: url(https://images.unsplash.com/photo-1561494653-744c43aed0c1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1929&q=80);
+  background-size: cover;
+
+}
+p{
+
+}
+#logout, #login{
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  top:0;
+}
+#manage{
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  top:0;
+  left: 10%;
+}
+
+.home {
+  width: 900px;
+}
+
+.visitor{
+/* border: 2px solid white; */
+position: absolute;
+top:35%;
+left: 10%;
+width: 300px;
+height: 400px;
+color: white;
+}
+.visitor p{
+  margin: 0;
+}
+
+.visitor .set{
+  font-size: 1.5em;
+  font-weight: 400;
+}
+.visitor .desc{
+  font-size: 1.2em;
+  font-weight: 400;
+  position: fixed;
+  left: 25%;
+}
+.visitor .count{
+  color: rgb(187, 190, 31);
+  padding-left: 7%;
+  font-weight: 700;
+  font-size: 7em;
+}
